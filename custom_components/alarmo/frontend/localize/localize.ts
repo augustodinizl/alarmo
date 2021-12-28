@@ -7,6 +7,7 @@ import * as fr from './languages/fr.json';
 import * as it from './languages/it.json';
 import * as nl from './languages/nl.json';
 import * as sv from './languages/sv.json';
+import * as ptbr from './languages/ptbr.json';
 
 var languages: any = {
   ca: ca,
@@ -16,7 +17,8 @@ var languages: any = {
   fr: fr,
   it: it,
   nl: nl,
-  sv: sv
+  sv: sv,
+  ptbr: ptbr
 };
 
 export function localize(string: string, language: string, search: string | string[] = '', replace: string | string[] = '') {
